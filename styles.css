@@ -1,0 +1,108 @@
+/* Criei estilos gerais para o corpo do site */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Aqui estilos para o cabeçalho */
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilo para o menu de navegação */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Estilo para a seção principal, muda de acordo com a página */
+
+main {
+    padding: 20px;
+}
+
+/* Estilo específicos para "sobre mim" */
+
+.sobre-mim {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.perfil-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.sobre-mim-conteudo {
+    max-width: 600px;
+}
+
+/* Estilos para o rodapé*/
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para o formulário de contato, na página "Contato" */
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
